@@ -1,6 +1,6 @@
 import React from "react";
 
-const baseUrl = "http://localhost:3000";
+const baseUrl = "https://cookies-back.onrender.com";
 
 const addCookie = async () => {
   const response = await fetch(`${baseUrl}/add-cookie`, {
